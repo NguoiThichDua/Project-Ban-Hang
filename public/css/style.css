@@ -1,0 +1,343 @@
+/*
+    padding: 15px;
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+*/
+*{
+    cursor:url('../images/default-images/cursor.png'), auto;
+}
+body {margin: 0;background-color: #f1f1f1;zoom: 90%}
+
+
+/*========================================= BOXSHAWDOW ==========================================*/
+.b-sd-lg{box-shadow: 5px 5px 5px  #e6e6e6 /*rgba(0,0,0,0.4)*/;}
+.b-sd-sm{box-shadow: 3px 3px 3px  #e6e6e6 /*rgba(0,0,0,0.4)*/;}
+
+
+/*========================================= NAVBAR ==========================================*/
+.navbar{
+    background-color: darkgrey;
+    position: fixed;
+    top: 0;/*ở trên đỉnh*/
+    width: 100%;
+    transition: top 0.5s;            /*thời gian delay*/}
+
+.navbar a{ 
+    display: block;                 /*các thành phần sẽ đứng độc lập thành hàng*/
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;          /*loại bỏ gạch chân*/
+}
+
+.navbar a:hover{background: gray;}
+
+/*========================================= CARD ==========================================*/
+.card-10{
+    width: 100%;
+    height: auto;
+    border: 1px solid Silver;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: darkgrey;
+}
+.card-9{
+    width: 90%;
+    height: auto;
+    border: 1px solid Silver;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: darkgrey;
+}
+.card-8{
+    width: 80%;
+    height: auto;
+    border: 1px solid Silver;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: darkgrey;
+}
+.card-9{
+    width: 90%;
+    height: auto;
+    border: 1px solid Silver;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: darkgrey;
+}
+.card-5{
+    width: 50%;
+    height: auto;
+     border: 1px solid Silver;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: darkgrey;
+}
+.card-3{
+    width: 30%;
+    height: auto;
+    border: 1px solid Silver;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: darkgrey;
+}
+.card-sm{
+    width: 250px;
+    height: auto;
+     border: 1px solid Silver;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background-color: darkgrey;
+}
+
+/*========================================= CONTAINER ==========================================*/
+.container{
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*======================================= COLUMN ============================================*/
+.col-10{
+    width: 99%;
+    float: left;   
+    display: block;
+
+    display: flex;                  /*Căn giữa đối tượng*/
+    justify-content: center;
+
+    margin: 5px;
+}
+.col-9{
+    width: 89%;
+    float: left;   
+    display: block;
+
+    display: flex;                  /*Căn giữa đối tượng*/
+    justify-content: center;
+
+    margin: 5px;
+}
+.col-5{
+    width: 48%;
+    float: left;   
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.col-7{
+    width: 68%;
+    float: left;   
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.col-3{
+    width: 28%;
+    float: left;   
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.col-1{
+    width: 9%;
+    float: left;   
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.row{
+    display: block;
+}
+/*======================================= MARGIN ============================================*/
+.m-3{margin: 30px;}
+.ml-3{margin-left: 30px;}
+.mt-2{margin-top: 20px;}
+.mt-3{margin-top: 30px;}
+.mt-4{margin-top: 40px;}
+.mt-5{margin-top: 50px;}
+.mt-8{margin-top: 80px;}
+
+.p-0{padding: 0px;}
+.pd-10{padding: 10px;}
+
+/*======================================== BG-TEXT ===========================================*/
+.bg-danger{background-color: tomato;}
+.bg-warning{background-color: orange;}
+.bg-primary{background-color: DodgerBlue;}
+.bg-success{background-color: MediumSeaGreen;}
+.bg-dark{ background-color: Gray;}
+.bg-light{background-color: LightGray;}
+.bg-white{background-color: white;}
+
+.text-danger{color: tomato;}
+.text-warning{color: orange;}
+.text-primary{color: DodgerBlue;}
+.text-success{color: MediumSeaGreen;}
+.text-dark{color: Gray;}
+.text-light{color: LightGray;}
+.text-white{color: white;}
+.text-center{text-align: center;}
+
+/*======================================== DISPLAY ===========================================*/
+.float-right{float: right;}
+.float-left{ float: left;}
+.clear-float{clear: both;}
+
+.d-flex{display: flex;}
+.justify-content-center{justify-content: center;}
+.justify-content-end{justify-content: flex-end;}
+.justify-content-start{justify-content: flex-start;}
+
+/*======================================== BUTTON ===========================================*/
+.btn{
+    background-color: #f1f1f1;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 10px;
+}
+.btn-danger{background-color: tomato;color: white;}
+.btn-warning{background-color: orange;color: white;}
+.btn-primary{background-color: DodgerBlue;color: white;}
+.btn-success{background-color: MediumSeaGreen;color: white;}
+.btn-dark{ background-color: Gray;color: white;}
+.btn-light{background-color: LightGray;color: black;}
+.btn-white{background-color: #fff;color: black;}
+
+.btn-danger:hover{background: white; color: tomato;  border: 1px tomato solid;}
+.btn-warning:hover{background: white; color: orange;  border: 1px orange solid;}
+.btn-primary:hover{background: white; color: DodgerBlue;  border: 1px DodgerBlue solid;}
+.btn-success:hover{background: white; color: MediumSeaGreen;  border: 1px MediumSeaGreen solid;}
+.btn-dark:hover{background: white; color: Gray;  border: 1px Gray solid;}
+.btn-light:hover{background: white; color: LightGray;  border: 1px LightGray solid;}
+.btn-white:hover{background: white; color: LightGray;  border: 1px LightGray solid;}
+
+
+/*======================================== FROM CONTROL ===========================================*/
+.form-control{
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 2%;
+}
+/*======================================== ALERT ===========================================*/
+
+.alert{
+    padding: 15px;
+    background-color: #fff;
+    color: black;
+    opacity: 1;
+    width: 100%;
+    transition: opacity 0.6s;
+    margin: 10px;
+    border-radius: 10px;
+}
+.alert.success{background-color: #4caf50}
+.alert.info{background-color: #2196f3}
+.alert.warning{background-color: #ff9800}
+.alert.danger{background-color: #f44336}
+
+/*======================================== TABLE ===========================================*/
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+table, th, td {
+    border-collapse: collapse;
+    border-spacing: 0px;
+  }
+
+table th{
+    border-bottom: 2px solid silver;
+    padding: 10px;
+}
+table td{
+    padding: 10px
+}
+table tr:hover td{
+    background: rgb(190, 190, 190);
+    color:white;
+}
+
+/*======================================== BORDER ===========================================*/
+.car-200{
+    border-radius: 200px;
+}
+.car-100{
+    border-radius: 100px;
+}
+.bd-500{
+    border-radius: 500px;
+}
+.bd-200{
+    border-radius: 200px;
+}
+.bd-150{
+    border-radius: 150px;
+}
+.bd-100{
+    border-radius: 100px;
+}
+.bd-10{
+    border-radius: 10px;
+}
+
+.bdr{border: 5px solid #f1f1f1}
+.bdr-white{border: 5px solid #fff}
+
+/*======================================== WIDTH ===========================================*/
+.w-100{
+    width: 100%;
+}
+.w-98{
+    width: 98%;
+}
+.w-95{
+    width: 95%;
+}
+.w-90{
+    width: 90%;
+}
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 70%;
+}
+.w-50{
+    width: 50%;
+}
+.w-30{
+    width: 30%;
+}
+.w-10{
+    width: 10%;
+}
+
+
+

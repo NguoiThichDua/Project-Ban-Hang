@@ -1,0 +1,20 @@
+.message{
+    position: absolute;
+    display: none;
+    z-index: 2;
+    
+    /*Căn giữa model*/
+    left: 90%; 
+    transform: translateX(-50%) translateY(0%);
+}
+
+.animationalert{
+    -webkit-animation: animationalert 0.5s;
+    animation: animationalert 0.5s;
+}
+
+@keyframes animationalert{
+    /* Từ trên xuống */
+    from {transform: translateX(-50%) translateY(-360%)}
+    to {transform: translateX(-50%) translateY(-0%)}
+}
